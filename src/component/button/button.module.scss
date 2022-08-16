@@ -26,6 +26,11 @@
 .title + .icon {
   margin-left: 8px;
 }
+.icon {
+  display: block;
+  width: 24px;
+  text-align: center;
+}
 // button tipys (kieu buttop)
 .primary {
   color: var(--while);

@@ -17,11 +17,11 @@ function Button({
   children,
   to,
   href,
-  onclick,
+  onClick,
   ...passProps
 }) {
   let Comp = 'button';
-  const props = { onclick, ...passProps };
+  const props = { onClick, ...passProps };
   /// remove event listener when button is  disabled
   if (disabled) {
     Object.keys(props).forEach((key) => {
